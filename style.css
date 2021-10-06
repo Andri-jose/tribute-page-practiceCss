@@ -1,0 +1,119 @@
+body{
+    background-color:#322E2E;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+  }
+
+  
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+
+
+li,
+ul,
+ol {
+  color:#ECECEC;
+  
+}
+
+span{
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+  
+  /*title and picture*/
+  
+  .title__container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:34rem;
+  }
+  
+  #title{
+    color:#ECECEC;
+    font-size: 4rem;
+    
+  }
+  
+  .title__description{
+    color:#ECECEC;
+    font-size: 1.3rem;
+  }
+  
+  #img-caption{
+    color:#ECECEC;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    
+  }
+  
+  #img-div {
+    text-align: center; 
+  }
+  
+  #image {
+    width: 100%;
+    height: auto;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 0.5rem;
+  }
+
+  
+  
+  /*life description*/
+  #main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 11rem  
+  }
+
+  .main__title{
+    color:#ECECEC;
+  }
+
+  .main__description{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 38.5rem;
+    height: 50rem;
+    gap: 2rem;
+    /*font-size: 1rem;*/
+  }
+
+  li{
+    font-size: 0.9rem;
+}
+
+  .berry__sentence{
+    color:#ECECEC;
+    margin-top: -3rem;  
+    text-align: center;
+    width: 32rem;
+    font-style: italic;
+  }
+
+  /*footer*/
+  .footer__container{
+    text-align: center;
+    height: 5rem; 
+    margin-top: 4rem;
+  }
+
+  #tribute-info{
+    color:#ECECEC;  
+    
+  }
+
+  #tribute-link{
+      color:#00BFFF;
+  }
